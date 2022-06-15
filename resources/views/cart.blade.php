@@ -52,10 +52,10 @@
      <div class="container">
           <div class="row">
                <div class="col-md-7">
-                    <img src="\images\1.jpg" style="border-radius: 10px;" alt="" class="img-fluid">
-                    <img src="\images\1.jpg" style="border-radius: 10px;" alt="" class="img-fluid">
-                    <img src="\images\1.jpg" style="border-radius: 10px;" alt="" class="img-fluid">
-                    <img src="\images\1.jpg" style="border-radius: 10px;" alt="" class="img-fluid">
+                    <img  src="\images\1.jpg" style="border-radius: 10px; height:177px;" alt="" class="img-fluid">
+                    <img src="https://p4.wallpaperbetter.com/wallpaper/698/474/361/dinner-food-pie-pizza-wallpaper-preview.jpg" style="border-radius: 10px; height:177px;" alt="" class="img-fluid">
+                    <img src="https://assets.bonappetit.com/photos/57ad5452f1c801a1038bcb97/master/pass/perfect-porterhouse-steak.jpg" style="border-radius: 10px; height:177px; width:283px;" alt="" class="img-fluid">
+                    <img src="https://www.jaridatakhbarak.com/wp-content/uploads/2021/11/easy-baked-stuffed-lobster-recipe-1808994-hero-01-f8ec7396623d4d4eaf49d73a4bd9795c-scaled.jpg" style="border-radius: 10px; height:177px; width:283px;" alt="" class="img-fluid">
                </div>
                <div class="col-md-5 text-white">
                     <h1 class="mt-5">More Options</h1>
@@ -69,7 +69,7 @@
           </div>
           <div class="row my-5">
                <div class="col">
-                    <div class="bg-info text-white my-3 py-3 card text-center">
+                    <div class="bg-info text-white my-3 py-3 container text-center">
                          <div class="card-body">
                               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eos officiis placeat rem magnam?
                           Voluptas eveniet laboriosam eius assumenda officiis corporis tempore recusandae aut explicabo.
@@ -116,6 +116,70 @@
                              </div>
                            </div>
                          </div>
+                         <div class="card">
+                           <img src="https://c4.wallpaperflare.com/wallpaper/209/721/107/food-burger-wallpaper-preview.jpg" class="card-img-top" alt="...">
+                           <div class="card-body">
+                             <h5 class="card-title">Card title</h5>
+                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                             <br>
+                             <div class="text-center">
+                              <button type="button" class="btn btn-primary mt-3"> Read More</button>
+                             </div>
+                           </div>
+                         </div>
+                         
+                       </div>
+               </div>
+          </div>
+          <br>
+          <div class="row">
+               <div class="col">
+                    <div class="card-group">
+                         <div class="card">
+                           <img src="https://wallpapercave.com/wp/wp8202427.jpg" class="card-img-top" alt="...">
+                           <div class="card-body">
+                             <h5 class="card-title">Card title</h5>
+                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                             <br>
+                             <div class="text-center">
+                              <button type="button" class="btn btn-primary mt-3"> Read More</button>
+                             </div>
+                           </div>
+                         </div>
+                         <div class="card">
+                           <img src="https://images.unsplash.com/photo-1532980400857-e8d9d275d858?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&w=1000&q=80" class="card-img-top" alt="...">
+                           <div class="card-body">
+                             <h5 class="card-title">Card title</h5>
+                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                             <br>
+                             <div class="text-center">
+                              <button type="button" class="btn btn-primary mt-3"> Read More</button>
+                             </div>
+                           </div>
+                         </div>
+                         <div class="card">
+                           <img src="https://c4.wallpaperflare.com/wallpaper/209/721/107/food-burger-wallpaper-preview.jpg" class="card-img-top" alt="...">
+                           <div class="card-body">
+                             <h5 class="card-title">Card title</h5>
+                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                             <br>
+                             <div class="text-center">
+                              <button type="button" class="btn btn-primary mt-3"> Read More</button>
+                             </div>
+                           </div>
+                         </div>
+                         <div class="card">
+                           <img src="https://c4.wallpaperflare.com/wallpaper/209/721/107/food-burger-wallpaper-preview.jpg" class="card-img-top" alt="...">
+                           <div class="card-body">
+                             <h5 class="card-title">Card title</h5>
+                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                             <br>
+                             <div class="text-center">
+                              <button type="button" class="btn btn-primary mt-3"> Read More</button>
+                             </div>
+                           </div>
+                         </div>
+                         
                        </div>
                </div>
           </div>

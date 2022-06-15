@@ -16,6 +16,7 @@ body{
     border-radius: 10px;
     margin-top: 20px;
     opacity: 0.9;
+    
 }
 
 .card-title{
@@ -43,6 +44,22 @@ footer{
 }
 .btn{
     box-sizing: content-box;
+}
+.container-1{
+    background-color: black;
+    height: 70px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   
+}
+.menu{
+    color: white;
+    text-align: center;
+}
+.card-text{
+    height: 192px;
+    text-align: center;
 }
 
 
