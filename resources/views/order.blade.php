@@ -104,7 +104,7 @@
                     </div>
                     <div class="card-footer ">
                       <div class="text-center">
-                      <a class="btn btn-primary" href="" >More Details</a>
+                      <a class="btn btn-primary" href="{{url('detail')}}" >More Details</a>
                       </div>
                     </div>
                 </div>
@@ -216,13 +216,10 @@
 
 
 <br>
-    <footer>
-      <div class="container-fluid fixed-buttom ">
-        <h3 >This content Own to @KyawZinLin</h3>
-      </div>
-    </footer>
-
-
+   
+<footer >
+  <h3 >This contact Own To Kyaw Zin Lin</h3>
+</footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
