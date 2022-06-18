@@ -32,7 +32,7 @@
                     Dropdown
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a href="card.html" class="dropdown-item">Details</a></li>
+                    <li><a href="http://127.0.0.1:8000/detail" class="dropdown-item">Details</a></li>
                     <li><a class="dropdown-item" href="#">Another action</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -52,10 +52,11 @@
      <div class="container">
           <div class="row">
                <div class="col-md-7">
-                    <img  src="\images\1.jpg" style="border-radius: 10px; height:177px;" alt="" class="img-fluid">
+                
+                    <!-- <img  src="\images\1.jpg" style="border-radius: 10px; height:177px;" alt="" class="img-fluid">
                     <img src="https://p4.wallpaperbetter.com/wallpaper/698/474/361/dinner-food-pie-pizza-wallpaper-preview.jpg" style="border-radius: 10px; height:177px;" alt="" class="img-fluid">
-                    <img src="https://assets.bonappetit.com/photos/57ad5452f1c801a1038bcb97/master/pass/perfect-porterhouse-steak.jpg" style="border-radius: 10px; height:177px; width:283px;" alt="" class="img-fluid">
-                    <img src="https://www.jaridatakhbarak.com/wp-content/uploads/2021/11/easy-baked-stuffed-lobster-recipe-1808994-hero-01-f8ec7396623d4d4eaf49d73a4bd9795c-scaled.jpg" style="border-radius: 10px; height:177px; width:283px;" alt="" class="img-fluid">
+                    <img src="https://assets.bonappetit.com/photos/57ad5452f1c801a1038bcb97/master/pass/perfect-porterhouse-steak.jpg" style="border-radius: 10px; height:177px; width:283px;" alt="" class="img-fluid"> -->
+                    <img src="https://www.jaridatakhbarak.com/wp-content/uploads/2021/11/easy-baked-stuffed-lobster-recipe-1808994-hero-01-f8ec7396623d4d4eaf49d73a4bd9795c-scaled.jpg" style="border-radius: 10px; " alt="" class="img-fluid">
                </div>
                <div class="col-md-5 text-white">
                     <h1 class="mt-5">More Options</h1>

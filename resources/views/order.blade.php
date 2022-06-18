@@ -33,7 +33,7 @@
             Dropdown
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Details</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:8000/detail">Details</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -78,9 +78,15 @@
 
 <div class="container-1 text-center"> <h1> You can choose many options here</h1></div> 
 
+<div><h1 class="menu" >Menu For You</h1></div>
+
+<br>
+
+
+
 
 <section>
-  <div><h1 class="menu" >Menu For You</h1></div>
+  
     <div class=" card-container">
         <div class="row">
         <div class="col-md-4">
@@ -96,7 +102,7 @@
                            In fact, most modern sauces which form western dishes are variations of this fundamental sauce tree.
                         </div>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer ">
                       <div class="text-center">
                       <a class="btn btn-primary" href="" >More Details</a>
                       </div>
@@ -205,6 +211,10 @@
         </div>
     </div>
 </section>
+
+
+
+
 <br>
     <footer>
       <div class="container-fluid fixed-buttom ">

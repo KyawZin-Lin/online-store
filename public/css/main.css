@@ -3,7 +3,7 @@ body{
     height: 100vh;
     background-image: url('https://media.istockphoto.com/photos/empty-dark-wooden-table-in-front-of-abstract-blurred-bokeh-background-picture-id1130714046?b=1&k=20&m=1130714046&s=170667a&w=0&h=MC8LticTUrt8xJ9MevhvuJEH49Rf6Psv8E50KKcPx0A=');
     background-size: cover; 
-  
+    width: 100%;
     
 }
 .header{
@@ -16,7 +16,9 @@ body{
     border-radius: 10px;
     margin-top: 20px;
     opacity: 0.9;
+    height: 722.55px;
     
+
 }
 
 .card-title{
@@ -56,11 +58,16 @@ footer{
 .menu{
     color: white;
     text-align: center;
+    background-color: black;
 }
-.card-text{
-    height: 192px;
-    text-align: center;
-}
+/* .card-text{
+    height:auto;
+    text-align: justify;
+   text-overflow: clip;
+  
+
+} */
+
 
 
    
