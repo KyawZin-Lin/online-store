@@ -1,18 +1,13 @@
-body{
+#main-body{
     background-color:lightgray;
-    height: 100vh;
+    height: auto;
     background-image: url('https://media.istockphoto.com/photos/empty-dark-wooden-table-in-front-of-abstract-blurred-bokeh-background-picture-id1130714046?b=1&k=20&m=1130714046&s=170667a&w=0&h=MC8LticTUrt8xJ9MevhvuJEH49Rf6Psv8E50KKcPx0A=');
     background-size: cover; 
     width: 100%;
     
 }
-.header{
-    background-color: gray;
-    text-align: center;
-    opacity: 0.9;
-    color: white;
-}
-.card{
+
+#main-card{
     border-radius: 10px;
     margin-top: 20px;
     opacity: 0.9;
@@ -26,7 +21,7 @@ body{
     border-radius: 10px;
     text-align: center;
 }
-img{
+#main-img{
    object-position: center;
    width: 100%;
    border-radius: 20px;
@@ -35,18 +30,18 @@ img{
 .navbar-gp{
     width: 100%; 
 }
-.carousel-img{
+#main-carousel-img{
     border-radius: 1px;
     height: 500px;
+    width: 100%;
 }
-footer{
+.footer{
     background-color: antiquewhite;
     text-align: center;
     justify-items: center;
-}
-.btn{
-    box-sizing: content-box;
-}
+    
+  }
+
 .container-1{
     background-color: black;
     height: 70px;
@@ -60,13 +55,72 @@ footer{
     text-align: center;
     background-color: black;
 }
-/* .card-text{
-    height:auto;
-    text-align: justify;
-   text-overflow: clip;
-  
 
-} */
+/* -------------for Detail----------- */
+
+.detail-img{
+    width: 100%;
+    height: 250px;
+  }
+  h1{
+    text-align: center;
+    color: palevioletred;
+  }
+  
+  .detail-card{
+    border-radius: 10px;
+    transition: 0.5s;
+    border: 2px solid brown;
+   
+  }
+  
+  .detail-card:hover{
+    transform: translateY(-20px);
+    box-shadow: 5px 5px 20px black;
+  
+  }
+  .header{
+    
+    color: rgb(254, 250, 250);
+  }
+  
+  body{
+    height: auto;
+    
+  }
+  footer{
+    background-color: antiquewhite;
+    text-align: center;
+    justify-items: center;
+    
+  }
+
+  /* ------for cart ------ */
+  a {
+    color: white;
+}
+#cart{
+    background-image: url('https://media.istockphoto.com/photos/empty-dark-wooden-table-in-front-of-abstract-blurred-bokeh-background-picture-id1130714046?b=1&k=20&m=1130714046&s=170667a&w=0&h=MC8LticTUrt8xJ9MevhvuJEH49Rf6Psv8E50KKcPx0A=');
+    background-size: cover;
+    height: 100vh;
+    
+}  
+
+#cart-card{
+   
+    transition: 0.3s ;
+}
+#cart-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 40px rgb(213, 83, 83);
+}
+
+.card-img-top{
+    height: 300px;
+}
+.btn{
+  background-color: brown;
+}
 
 
 

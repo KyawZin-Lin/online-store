@@ -9,9 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Hello, world!</title>
-    <link rel="stylesheet" href="{{url('css\cart.css')}}">
+    <link rel="stylesheet" href="{{url('css\main.css')}}">
   </head>
-  <body>
+  <body id="cart">
     <header>
      <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
           <div class="container-fluid">
@@ -52,10 +52,6 @@
      <div class="container">
           <div class="row">
                <div class="col-md-7">
-                
-                    <!-- <img  src="\images\1.jpg" style="border-radius: 10px; height:177px;" alt="" class="img-fluid">
-                    <img src="https://p4.wallpaperbetter.com/wallpaper/698/474/361/dinner-food-pie-pizza-wallpaper-preview.jpg" style="border-radius: 10px; height:177px;" alt="" class="img-fluid">
-                    <img src="https://assets.bonappetit.com/photos/57ad5452f1c801a1038bcb97/master/pass/perfect-porterhouse-steak.jpg" style="border-radius: 10px; height:177px; width:283px;" alt="" class="img-fluid"> -->
                     <img src="https://www.jaridatakhbarak.com/wp-content/uploads/2021/11/easy-baked-stuffed-lobster-recipe-1808994-hero-01-f8ec7396623d4d4eaf49d73a4bd9795c-scaled.jpg" style="border-radius: 10px; " alt="" class="img-fluid">
                </div>
                <div class="col-md-5 text-white">
@@ -84,10 +80,10 @@
           <div class="row">
                <div class="col">
                     <div class="card-group">
-                         <div class="card">
+                         <div class="card" id="cart-card">
                            <img src="https://wallpapercave.com/wp/wp8202427.jpg" class="card-img-top" alt="...">
                            <div class="card-body">
-                             <h5 class="card-title">Card title</h5>
+                             <h5 class="card-title-1">Card title</h5>
                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                              <br>
                              <div class="text-center">
@@ -95,10 +91,10 @@
                              </div>
                            </div>
                          </div>
-                         <div class="card">
+                         <div class="card" id="cart-card">
                            <img src="https://images.unsplash.com/photo-1532980400857-e8d9d275d858?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&w=1000&q=80" class="card-img-top" alt="...">
                            <div class="card-body">
-                             <h5 class="card-title">Card title</h5>
+                             <h5 class="card-title-1">Card title</h5>
                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                              <br>
                              <div class="text-center">
@@ -106,10 +102,10 @@
                              </div>
                            </div>
                          </div>
-                         <div class="card">
+                         <div class="card" id="cart-card">
                            <img src="https://c4.wallpaperflare.com/wallpaper/209/721/107/food-burger-wallpaper-preview.jpg" class="card-img-top" alt="...">
                            <div class="card-body">
-                             <h5 class="card-title">Card title</h5>
+                             <h5 class="card-title-1">Card title</h5>
                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                              <br>
                              <div class="text-center">
@@ -117,10 +113,10 @@
                              </div>
                            </div>
                          </div>
-                         <div class="card">
+                         <div class="card" id="cart-card">
                            <img src="https://c4.wallpaperflare.com/wallpaper/209/721/107/food-burger-wallpaper-preview.jpg" class="card-img-top" alt="...">
                            <div class="card-body">
-                             <h5 class="card-title">Card title</h5>
+                             <h5 class="card-title-1">Card title</h5>
                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                              <br>
                              <div class="text-center">
@@ -136,10 +132,10 @@
           <div class="row">
                <div class="col">
                     <div class="card-group">
-                         <div class="card">
+                         <div class="card" id="cart-card">
                            <img src="https://wallpapercave.com/wp/wp8202427.jpg" class="card-img-top" alt="...">
                            <div class="card-body">
-                             <h5 class="card-title">Card title</h5>
+                             <h5 class="card-title-1">Card title</h5>
                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                              <br>
                              <div class="text-center">
@@ -147,10 +143,10 @@
                              </div>
                            </div>
                          </div>
-                         <div class="card">
+                         <div class="card" id="cart-card">
                            <img src="https://images.unsplash.com/photo-1532980400857-e8d9d275d858?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&w=1000&q=80" class="card-img-top" alt="...">
                            <div class="card-body">
-                             <h5 class="card-title">Card title</h5>
+                             <h5 class="card-title-1">Card title</h5>
                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                              <br>
                              <div class="text-center">
@@ -158,10 +154,10 @@
                              </div>
                            </div>
                          </div>
-                         <div class="card">
+                         <div class="card" id="cart-card">
                            <img src="https://c4.wallpaperflare.com/wallpaper/209/721/107/food-burger-wallpaper-preview.jpg" class="card-img-top" alt="...">
                            <div class="card-body">
-                             <h5 class="card-title">Card title</h5>
+                             <h5 class="card-title-1">Card title</h5>
                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                              <br>
                              <div class="text-center">
@@ -169,10 +165,10 @@
                              </div>
                            </div>
                          </div>
-                         <div class="card">
+                         <div class="card" id="cart-card">
                            <img src="https://c4.wallpaperflare.com/wallpaper/209/721/107/food-burger-wallpaper-preview.jpg" class="card-img-top" alt="...">
                            <div class="card-body">
-                             <h5 class="card-title">Card title</h5>
+                             <h5 class="card-title-1">Card title</h5>
                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                              <br>
                              <div class="text-center">
